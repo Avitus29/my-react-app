@@ -1,9 +1,16 @@
 import "./Footer.css";
+
 const Footer = () => {
   return (
-    <div>
-      <p>© Copyright @ 2025 | All Rights Reserved</p>
-    </div>
+    <footer className="Footer">
+      <div className="Footer-content">
+        <p>© 2025 Doctor Reservation System. All Rights Reserved.</p>
+        <p>
+          <a href="#privacy-policy">Privacy Policy</a> |{" "}
+          <a href="#terms-of-service">Terms of Service</a>
+        </p>
+      </div>
+    </footer>
   );
 };
 

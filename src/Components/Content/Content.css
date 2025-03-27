@@ -1,16 +1,17 @@
+/* Button styling */
 .Content .btn {
     display: inline-block;
     margin-top: 20px;
     padding: 10px 20px;
-    background-color: #0078d7;
-    color: #fff;
+    background-color: #0078d7; /* Button color */
+    color: #fff; /* Text color */
     font-size: 1rem;
     font-weight: bold;
     text-decoration: none;
-    border-radius: 5px; 
+    border-radius: 5px; /* Rounded corners */
     transition: background-color 0.3s ease;
 }
 
 .Content .btn:hover {
-    background-color: #005bb5;
+    background-color: #005bb5; 
 }

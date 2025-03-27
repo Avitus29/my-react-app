@@ -1,11 +1,17 @@
-.footer {
-    background-color: darkslategray;
-    color: white;
+.Footer {
+    background-color: #333; /* Dark background */
+    color: #fff; /* White text */
+    padding: 20px 0;
     text-align: center;
-    padding: 15px 0;
-    font-size: 14px;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-  }
-  
+    font-size: 0.9rem;
+}
+
+.Footer-content a {
+    color: #0078d7; /* Accent color for links */
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.Footer-content a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
